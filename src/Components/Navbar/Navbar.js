@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NavLink from "./NavLink/NavLink";
 import { MdMenu } from "react-icons/md";
 import "./Navbar.css";
-// import resume from '../../images/Devender_Yadav_Resume.pdf'
+import resume from "../../images/Devender-resume.pdf"
 
 
 const Navbar = ({ elem,skillRef }) => {
@@ -62,7 +62,7 @@ const Navbar = ({ elem,skillRef }) => {
           <NavLink link="/#contact" hide={hideNavbar}>
             Contact
           </NavLink>
-          <a className="resume links" download="resume" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1qJ8hh1yV5PfXG7no6I3_U1UzZZGa9ts2/view?usp=sharing">
+          <a className="resume links" download={resume} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1qJ8hh1yV5PfXG7no6I3_U1UzZZGa9ts2/view?usp=sharing">
             Resume
           </a>
         </div>
