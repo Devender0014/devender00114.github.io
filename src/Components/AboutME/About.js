@@ -1,6 +1,6 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
-import proficePic from "../../images/IMG_2262.png"
+import proficePic from "../../images/IMG_2262_1_-removebg-preview.png"
 const AboutMe = () => {
   return (
     <div className="wraping">
@@ -17,10 +17,9 @@ const AboutMe = () => {
           people smarter than me!
         </p>
         <p>
-          When I am not smashing the keyboard, you will find me playing
-          pubg, reading or watching netflix.
+        You will find me playing Pubg, reading or watching Netflix when I am not smashing the keyboard.
         </p>
-        <p>Currently I am a student at Masai School.</p>
+        <p>Currently, I am a student at Masai School.</p>
         </ScrollAnimation>
 
       </div>
